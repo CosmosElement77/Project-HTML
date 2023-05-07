@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;padding: 0; box-sizing: border-box; font-family: 'Poppins',sans-serif;
+}
+nav{
+  position: fixed; background: #1b1b1b; width: 100%; padding: 10px 0; z-index: 12;
+}
+nav .menu{
+  max-width: 1250px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+.menu .logo a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 35px;
+  font-weight: 600;
+}
+#home{
+  text-decoration: none;
+  color: #fff;position: relative;left: 10cm;
+  font-size: 18px;
+  font-weight: 500;
+  padding:13px;
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+#home:hover{ background: #fff;color: black; cursor: pointer; }
+
+.ele{display: inline-flex;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  padding:13px;
+  border-radius: 5px;
+  transition: 0.3s ease;}
+
+.ele:hover{
+  background: #fff;
+  color: black; 
+  cursor: pointer; 
+}
+.hov{
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  width: 200px;
+  right: 60px;
+  top:60px;
+  border: solid;border-image:linear-gradient(to right, blue 25%, yellow 25%, yellow 50%,red 50%, red 75%, teal 75%) 5;
+  overflow: auto;
+  padding: 5px;
+}   
+.ele:hover .hov{display: block;}
+
+  .bo{
+    background-image:url(Images/Cliffs-by-Jack-Millard.jpg);
+    background-size:cover;
+    position: fixed;min-width: 1024px;width: 100%;
+  }
+
+  .CLOCK{
+    position: absolute;
+    top:3cm;left: 1cm;
+    text-align: center;
+    border: double;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: white;
+    overflow:hidden;
+    font-weight: 800;
+    color: #1b1b1b;
+  }
+.CLOCK #time{
+  position: relative;
+  top:0.35cm;
+}
+  
