@@ -1,0 +1,16 @@
+h1{color:antiquewhite;
+   text-shadow: black 2px 1px;
+   position:relative;left:14cm;font-size:1.2cm;
+   font-family: 'Courier New', Courier, monospace}
+
+body{background-color:#347890;width: 50%;}
+
+button
+{position: relative;top:7cm;left:16.5cm;
+   width: 2cm;background-color: white;
+   border: solid black 2px;border-radius:20% 30% ;
+   overflow: auto;transition: 0.5s linear;
+}
+button:hover{background-color: #f8d300;}
+
+#page-wrap {color: white;font-family:cursive ;font-size: x-large;}

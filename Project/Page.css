@@ -21,7 +21,7 @@ nav .menu{
 }
 #home{
   text-decoration: none;
-  color: #fff;position: relative;left: 10cm;
+  color: #fff;position: relative;left: 15cm;
   font-size: 18px;
   font-weight: 500;
   padding:13px;
@@ -29,6 +29,17 @@ nav .menu{
   transition: 0.3s ease;
 }
 #home:hover{ background: #fff;color: black; cursor: pointer; }
+
+#con{
+  text-decoration: none;
+  color: #fff;position: relative;left:3cm;
+  font-size: 18px;
+  font-weight: 500;
+  padding:13px;
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+#con:hover{ background:white;color: black; cursor: pointer; }
 
 .ele{display: inline-flex;
   color: #fff;
@@ -56,27 +67,45 @@ nav .menu{
 }   
 .ele:hover .hov{display: block;}
 
-  .bo{
-    background-image:url(Images/Cliffs-by-Jack-Millard.jpg);
-    background-size:cover;
-    position: fixed;min-width: 1024px;width: 100%;
-  }
-
-  .CLOCK{
-    position: absolute;
-    top:3cm;left: 1cm;
-    text-align: center;
-    border: double;
-    height: 60px;
-    width: 60px;
-    border-radius: 50%;
-    background-color: white;
-    overflow:hidden;
-    font-weight: 800;
-    color: #1b1b1b;
-  }
-.CLOCK #time{
-  position: relative;
-  top:0.35cm;
+.bo
+{ position: absolute;
+  text-align:center;
+  /* background:url("Images/abstract-colorful-retro-low-poly-vector-background-with-cool-gradient-futuristic-pattern.webp");*/
+  background-color: lightseagreen;
+  background-size:cover;
+  min-width: 1024px;width: 100%;
 }
+
+#quiz{
+  position: relative;
+ top: 2.5cm;width: 60%;margin-left:12cm ;
+ /* -moz-column-count: 2;column-count: 2;column-width: 50%; */
+  overflow-x: scroll;
+  color: black;font-size: x-large;
+  text-align:left ;
+}
+
+input{
+  transition: linear 1s;
+}
+
+input:hover{
+  width: 50px;
+}
+
+button{
+  position: relative;
+  top: -1cm;left: 650px;
+  height: 40px;width: 70px;border: solid black;
+  border-radius:25%;
+  background-color:greenyellow;font-family: Roboto,sans-serif;
   
+}
+button:hover{
+  background-color:white;transition:ease-in 0.5s ;scale: 5cm;
+  cursor: pointer; font-style:oblique;
+}
+
+
+
+
