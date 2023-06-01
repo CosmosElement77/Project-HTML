@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<head><style>
+*{font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+
+body{
+  /* background:url(Images/th.jpg); */
+  background: linear-gradient(-45deg, rgb(20, 114, 114) 5%,indigo 15%, teal 51%, indigo 100%);
+  animation: AnimateBG 20s ease infinite;
+  background-size:300% 300%;
+  width: 97%;
+  color: azure;
+  font-size: x-large;
+}
+button{
+  height: 50px;
+  width: 170px;
+  left:16cm;
+  border-radius: 5px;
+  position: relative;
+  border: none;
+  margin: 10px;
+  border: 3px solid black;
+  font-size: 20px;
+  font-weight: 500;
+  cursor:pointer;
+  color: white;
+  background: yellowgreen;
+  transition: 0.7s;
+  text-decoration: none;
+}
+button:hover{
+  background: white;
+  color: black;
+  animation: 0.8s linear infinite;
+}
+h2{
+  color: yellow;
+  border: double ;
+  border-radius: 3cm;
+}
+
+@keyframes AnimateBG {
+  0% {background-position: 0% 20%; }
+  50% {background-position: 100% 50%;  }
+  100% {background-position: 0% 50%;}
+}
+
+  </style>
+<title >Instructions Here !</title>
+<link rel="icon" href="Images/mar.gif" >  
+<script src="JQuery.js"></script>
+</head>
+
+<form action="#" method="get" id="fro">
+<body id="bo"><h2>Guidlines for Test</h2>Guidelines and instructions for the Candidates for Online Examination
+Online examination is being conducted for evaluating the students’ performance for Examination for
+various courses.<br>
+It is an Online Examination system, fully computerized, user friendly having advanced
+security features making it fair, transparent and standardized.<br>
+The term end examination will be conducted in an online proctored mode. Candidate can
+take the test from the safe and secure environment of his/her home, with a
+desktop/laptop/smartphone (with a webcam) and an internet connection (un-interrupted
+internet speed is desirable).<br>
+Candidates are requested to take the test honestly, ethically, and should follow all the
+instructions.<br>
+Basic Instructions for Online Examinations:<br>
+A. General information:<br>
+1. The examination will comprise of Objective type Multiple Choice Questions (MCQs)<br>
+2. All questions are compulsory and each carries One mark.<br>
+3. The total number of questions, duration of examination, will be different based on
+the course, the detail is available on your screen.<br>
+4. The Subjects or topics covered in the exam will be as per the Syllabus.<br>
+5. There will be NO NEGATIVE MARKING for the wrong answers.<br>
+B. Information & Instructions:<br>
+1. The examination does not require using any paper, pen, pencil and calculator.<br>
+2. Every student will take the examination on a Laptop/Desktop/Smart Phone.<br>
+3. On computer screen every student will be given objective type type Multiple Choice
+Questions (MCQs).<br>
+4. Each student will get questions and answers in different order selected randomly
+from a fixed Question Databank.<br>
+5. The students just need to click on the Right Choice / Correct option from the
+multiple choices /options given with each question. For Multiple Choice Questions,
+each question has four options, and the candidate has to click the appropriate
+option.<br>
+Extra Exam Attempt Will not be provided if,<br>
+1. Student fails to appear for exam within specified timings.<br>
+2. Student does not appear the papers.<br>
+3. Student appears for exam late / face lack of time.<br>
+4. Student ignores instructions and rules.<br>
+5. Student does not submit the exam properly.<br>
+6. Student face internet of power failure problems.<br>
+Important: Do not click the “End Test” button unless you want to leave early.<br>
+<button onclick=hello()>I Agree</button>
+<script src="Exit.js"></script>
+
+<script>document.body.style.zoom="90%"</script>
+</form>
+</body>
+</html>
+
+<!-- onclick="document.getElementById('bo').innerHTML='Thank You !'" -->
